@@ -1,5 +1,17 @@
 # SourceRestorer
 
+> [!IMPORTANT]  
+> SourceRestorer was published in May 2024 as a simple proof-of-concept tool to
+> demonstrate that this type of "source code protection" is largely
+> ineffective. It is not intended for continuous development to keep pace with
+> the latest updates in SOURCEdefender.
+>
+> More recently, alternative approaches have been suggested to address the
+> latest version of the encryption. For more information, see
+> [Sourcedefender-Restore][sdr].
+
+  [sdr]: https://github.com/GsDeluxe/Sourcedefender-Restore
+
 SourceRestorer is a tool designed to recover lost code from `.pye` files
 encrypted using [SOURCEdefender](https://www.sourcedefender.co.uk). It provides
 a means to decrypt and analyze otherwise unreadable Python source code, which
